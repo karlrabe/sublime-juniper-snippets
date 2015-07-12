@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+set security ike gateway ${1:GATEWAY-NAME} ike-policy ${2:POLICY-NAME}
+set security ike gateway ${1:GATEWAY-NAME} address ${3:1.2.3.4}
+set security ike gateway ${1:GATEWAY-NAME} external-interface ${4:INTERFACE-NAME}
+set security ike gateway ${1:GATEWAY-NAME} dead-peer-detection ${5:optimized}
+set security ike gateway ${1:GATEWAY-NAME} version ${0:v1-only}
+]]></content>
+<tabTrigger>ikegw</tabTrigger>
+	<!-- <scope></scope> -->
+</snippet>
