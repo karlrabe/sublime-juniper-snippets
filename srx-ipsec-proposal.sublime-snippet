@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+set security ipsec proposal ${1:PROPOSAL-NAME} protocol ${2:esp}
+set security ipsec proposal ${1:PROPOSAL-NAME} authentication-algorithm ${3:hmac-sha-256-128} encryption-algorithm ${4:aes-256-cbc}
+set security ipsec proposal ${1:PROPOSAL-NAME} lifetime-seconds ${5:86400} ${0}
+]]></content>
+<tabTrigger>ipsecprop</tabTrigger>
+	<!-- <scope></scope> -->
+</snippet>

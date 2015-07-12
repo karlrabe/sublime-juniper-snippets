@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+set security ike proposal ${1:PROPOSAL-NAME} authentication-method ${2:pre-shared-keys}
+set security ike proposal ${1:PROPOSAL-NAME} authentication-algorithm ${3:sha-256} encryption-algorithm ${4:aes-256-cbc}
+set security ike proposal ${1:PROPOSAL-NAME} dh-group ${5:group5} lifetime-seconds ${6:86400} ${0}
+]]></content>
+<tabTrigger>ikeprop</tabTrigger>
+	<!-- <scope></scope> -->
+</snippet>
