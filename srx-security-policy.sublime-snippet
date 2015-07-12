@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+set security policies from-zone ${1:FROM-ZONE} to-zone ${2:TO-ZONE} policy ${3:POLICY-NAME} match source-address ${4:any} destination-address ${5:any} application ${6:any}
+set security policies from-zone ${1:FROM-ZONE} to-zone ${2:TO-ZONE} policy ${3:POLICY-NAME} then ${0:permit}
+]]></content>
+<tabTrigger>secpol</tabTrigger>
+<!-- <scope></scope> -->
+</snippet>
