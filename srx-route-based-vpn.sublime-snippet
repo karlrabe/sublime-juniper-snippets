@@ -1,0 +1,12 @@
+<snippet>
+        <content><![CDATA[
+set security ipsec vpn ${1:VPN-NAME} bind-interface ${2:st0.}
+set security ipsec vpn ${1:VPN-NAME} ike gateway ${3:GATEWAY}
+set security ipsec vpn ${1:VPN-NAME} ike ipsec-policy ${4:IPSEC-POLICY}
+set security ipsec vpn ${1:VPN-NAME} establish-tunnels ${5:immediately}
+set security ipsec vpn ${1:VPN-NAME} traffic-selector ${6:TS} local-ip ${7:0.0.0.0/0} remote-ip ${8:0.0.0.0/0}${0}
+]]></content>
+<tabTrigger>route-vpn</tabTrigger>
+        <!-- <scope></scope> -->
+</snippet>
+

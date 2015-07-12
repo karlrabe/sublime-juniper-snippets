@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+set security ipsec vpn ${1:VPN-NAME} ike gateway ${2:GATEWAY}
+set security ipsec vpn ${1:VPN-NAME} ike ipsec-policy ${3:IPSEC-POLICY}
+set security ipsec vpn ${1:VPN-NAME} establish-tunnels ${4:immediately}${0}
+]]></content>
+<tabTrigger>policy-vpn</tabTrigger>
+	<!-- <scope></scope> -->
+</snippet>
