@@ -1,1 +1,4 @@
-# sublime-juniper-snippets
+sublime-juniper-snippets
+=================
+
+**Junos Config Snippets for Sublime Text / TextMate**
